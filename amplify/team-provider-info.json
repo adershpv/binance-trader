@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-binancetrader-dev-81805-authRole",
+      "UnauthRoleArn": "arn:aws:iam::880065242132:role/amplify-binancetrader-dev-81805-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::880065242132:role/amplify-binancetrader-dev-81805-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-binancetrader-dev-81805-deployment",
+      "UnauthRoleName": "amplify-binancetrader-dev-81805-unauthRole",
+      "StackName": "amplify-binancetrader-dev-81805",
+      "StackId": "arn:aws:cloudformation:us-east-1:880065242132:stack/amplify-binancetrader-dev-81805/cd0d7e50-c283-11eb-8048-1249719cb5f1",
+      "AmplifyAppId": "d14yyaecmx83pt"
+    },
+    "categories": {
+      "function": {
+        "streams": {
+          "deploymentBucketName": "amplify-binancetrader-dev-81805-deployment",
+          "s3Key": "amplify-builds/streams-496b67786a7a50793463-build.zip"
+        }
+      },
+      "auth": {
+        "binancetrader264a2e26": {}
+      }
+    }
+  }
+}

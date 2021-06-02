@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/streams",
+      "lambdaFunction": "streams",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/streams"
+    }
+  ],
+  "resourceName": "binance",
+  "apiName": "binance",
+  "functionArns": [
+    {
+      "lambdaFunction": "streams"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-binancetrader-dev-81805-authRole",
+    "unAuthRoleName": "amplify-binancetrader-dev-81805-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "streams",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
